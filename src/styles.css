@@ -1,0 +1,59 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  html {
+    height: 100%;
+  }
+  
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    overflow: hidden;
+    height: 100%;
+  }
+  
+  header {
+    border-bottom: solid 1px #ccc;
+    margin-bottom: 2em;
+  }
+  
+  h1, p {
+    padding-inline: 2rem;
+    max-width: 1000px;
+  }
+  
+  h1 {
+    font-size: 200%;
+  }
+  
+  p {
+    font-size: 1.125em;
+    line-height: 1.5;
+    margin-top: 0;
+  }
+  
+  aside {
+    font-size: 90%;
+    padding-block: 1em;
+  }
+  
+  aside h1,
+  aside p {
+    padding-inline: 1rem 2rem;
+  }
+  
+  aside button {
+    margin: 0 1em 1em;
+  }
+  
+  button {
+    background-color: black;
+    border: none;
+    border-radius: 0.375em;
+    color: white;
+    padding: 0.75em 1em;
+    position: relative;
+    transition: opacity 0.25s ease-out, scale 0.25s ease-out;
+  }
+  

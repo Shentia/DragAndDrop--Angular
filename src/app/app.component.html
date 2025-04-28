@@ -1,0 +1,47 @@
+<app-sidebar-resize>
+  <div slot-main>
+    <header><h1>Understanding Angular Drag and Drop</h1></header>
+    <p>
+      Angular's <a href="https://angular.io/cdk/drag-drop" target="_blank">Drag and Drop</a> module is part of the Angular CDK (Component Dev Kit). It provides developers with tools to implement drag-and-drop interfaces with minimal effort while maintaining accessibility and responsiveness.
+    </p>
+    <p>
+      At its core, the DragDropModule allows elements to be draggable and supports a variety of features such as sorting lists, transferring items between containers, and restricting drag boundaries. The module is designed to be extensible and supports integration with custom business logic.
+    </p>
+    <p>
+      To get started, import the DragDropModule in your Angular application and utilize directives like <code>cdkDrag</code> and <code>cdkDropList</code>. These directives handle the behavior and interactions of draggable elements and drop zones, respectively.
+    </p>
+    <p>
+      A common use case is creating a kanban board. By combining <code>cdkDrag</code> and <code>cdkDropList</code>, developers can build interactive boards where tasks can be dragged between columns to reflect workflow changes dynamically.
+    </p>
+    <p>
+      Angular Drag and Drop also supports sorting within a list. Adding <code>[cdkDropListSortingDisabled]</code> enables developers to prevent reordering while maintaining the ability to transfer items between lists.
+    </p>
+    <p>
+      By default, Angular Drag and Drop handles drag events and animations smoothly. However, for more complex scenarios, developers can hook into the drag-and-drop lifecycle events, such as <code>cdkDropListDropped</code>, to execute custom actions or update data models.
+    </p>
+    <p>
+      Built with accessibility in mind, Angular Drag and Drop ensures keyboard navigation support, making it compliant with WCAG standards and ensuring an inclusive user experience.
+    </p>
+  </div>
+  <div slot-sidebar>
+    <p>
+      The <a href="https://angular.io/cdk/drag-drop" target="_blank">Drag and Drop Module</a> provides:</p>
+      <ul>
+        <li>Seamless drag and drop functionality.</li>
+        <li>Customizable drag boundaries.</li>
+        <li>Support for list reordering and transferring items between containers.</li>
+      </ul>
+    
+    <p>
+      Advanced features include:</p>
+      <ul>
+        <li>Drag previews for better user feedback.</li>
+        <li>Placeholder support for smoother transitions.</li>
+        <li>Lifecycle events for enhanced customization.</li>
+      </ul>
+
+    <p>
+      With its powerful features and straightforward implementation, Angular Drag and Drop is an essential tool for developers looking to add interactivity and flexibility to their web applications.
+    </p>
+  </div>
+</app-sidebar-resize>
